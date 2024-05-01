@@ -6,3 +6,12 @@ Performs a split of a valid .txt file into a specified number of .txt files.
 - inputFile - input file to be split
 - number - number of files to split the input file into
 - outputDirectory - output directory
+
+Examples:
+- Split one text file into 4
+    
+        MPSGDreamSplitter.py -inputFile subnets.txt -number 4 -outputDirectory ~/
+
+            Input File: .TXT
+            Number: 2 through 10
+            Output Directory: ___
