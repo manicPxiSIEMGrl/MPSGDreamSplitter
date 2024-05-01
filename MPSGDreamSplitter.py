@@ -76,7 +76,7 @@ if __name__ == '__main__':
 		sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 	argParser = argparse.ArgumentParser(add_help = True, description = "Performs a split of a valid .txt file "
 														"into a specified number of .txt files.")
-	argParser.add_argument('-inputFile', action='store', help='input nmap file in xml format')
+	argParser.add_argument('-inputFile', action='store', help='input file to be split')
 	argParser.add_argument('-number', choices=['2','3','4','5','6','7','8','9','10'], help='number of files to split the input file into')
 	argParser.add_argument('-outputDirectory', action='store' , help='output directory')
 
